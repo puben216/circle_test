@@ -1,0 +1,7 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cimg/node:lts
+    steps: # steps キー が 正しい
+      - run: echo "hello world"
